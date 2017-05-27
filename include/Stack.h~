@@ -1,0 +1,11 @@
+#ifndef _STACK_H
+#define _STACK_H
+
+void init(PSTACK pS);
+void push(PSTACK pS , int val);
+void traverse(PSTACK pS);
+int empty(PSTACK pS);
+int pop(PSTACK pS , int *val);
+void clear(PSTACK pS);
+
+#endif //_STACK_H
